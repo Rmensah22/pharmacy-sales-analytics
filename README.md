@@ -44,3 +44,40 @@ The two datasets were compared using receipt identifiers. Of the unique receipts
 - Match rate: 80.5%
 
 The unmatched receipts were primarily associated with missing dates in the detailed sales dataset. This limitation was documented rather than assuming or creating dates that were not available in the source data.
+
+
+## Data Cleaning & Preparation
+
+Data quality was evaluated before conducting the analysis to improve the reliability of the results. The cleaning process focused on identifying duplicate records, invalid quantities, unusually high quantities, and missing dates.
+
+### Duplicate Records
+
+The original detailed sales dataset contained 514,342 records. An initial duplicate check identified 1,948 exact duplicate records, representing approximately 0.38% of the dataset.
+
+These duplicate records were removed to prevent repeated transactions from artificially increasing sales, units sold, and profitability measures.
+
+### Zero-Quantity Records
+
+Six records contained a quantity of zero. Because these records did not represent actual units sold, they were removed from the analytical dataset.
+
+### Final Clean Dataset
+
+After removing duplicate and zero-quantity records:
+
+- Original records: 514,342
+- Records removed: 1,954
+- Cleaned records: 512,388
+- Remaining zero-quantity records: 0
+
+### Missing Dates
+
+Date completeness was also evaluated. Of the 512,388 cleaned records:
+
+- Records with dates: 411,340
+- Records without dates: 101,048
+- Percentage with dates: 80.28%
+- Percentage without dates: 19.72%
+
+The records without dates represented approximately 19.61% of total revenue. Because dates could not be reliably determined for these transactions, they were retained for non-time-based analysis but excluded from analyses that required a valid transaction date.
+
+This approach preserved useful sales information while preventing unsupported assumptions about transaction timing.
