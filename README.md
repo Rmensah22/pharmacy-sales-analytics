@@ -115,3 +115,31 @@ These analyses provide the foundation for the visualizations and business findin
 ## Key Visualizations
 
 The analysis produced five primary visualizations designed to communicate the most important patterns identified in the sales data.
+
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(12, 6))
+
+plt.plot(
+    monthly_sales['Year_Month'],
+    monthly_sales['Revenue'],
+    marker='o',
+    label='Revenue'
+)
+
+plt.plot(
+    monthly_sales['Year_Month'],
+    monthly_sales['Gross_Profit'],
+    marker='o',
+    label='Gross Profit'
+)
+
+plt.title('Monthly Revenue and Gross Profit — 2015')
+plt.xlabel('Month')
+plt.ylabel('Amount')
+plt.xticks(rotation=45)
+plt.legend()
+plt.tight_layout()
+
+plt.savefig('monthly_revenue_profit.png', dpi=300, bbox_inches='tight')
+plt.show()
