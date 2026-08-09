@@ -110,3 +110,8 @@ The analysis was conducted across several business dimensions to identify areas 
 **Receipt-Type Performance:** Sales were grouped by receipt prefix to compare revenue, profitability, transaction volume, and average transaction value across different transaction types.
 
 These analyses provide the foundation for the visualizations and business findings presented in the following sections.
+
+
+## Key Visualizations
+
+The analysis produced five primary visualizations designed to communicate the most important patterns identified in the sales data.
