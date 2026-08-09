@@ -115,3 +115,6 @@ These analyses provide the foundation for the visualizations and business findin
 ## Key Visualizations
 
 The analysis produced five primary visualizations designed to communicate the most important patterns identified in the sales data.
+### 1. Monthly Revenue and Gross Profit
+
+![Monthly Revenue and Gross Profit](monthly_revenue_profit.png)
