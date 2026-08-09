@@ -115,7 +115,6 @@ These analyses provide the foundation for the visualizations and business findin
 ## Key Visualizations
 
 The analysis produced five primary visualizations designed to communicate the most important patterns identified in the sales data.
-
 import matplotlib.pyplot as plt
 
 plt.figure(figsize=(12, 6))
