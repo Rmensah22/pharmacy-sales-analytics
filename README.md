@@ -115,6 +115,23 @@ These analyses provide the foundation for the visualizations and business findin
 ## Key Visualizations
 
 The analysis produced five primary visualizations designed to communicate the most important patterns identified in the sales data.
+
 ### 1. Monthly Revenue and Gross Profit
 
 ![Monthly Revenue and Gross Profit](monthly_revenue_profit.png)
+
+### 2. Top 10 Products by Revenue
+
+![Top 10 Products by Revenue](top_products_revenue.png)
+
+### 3. Top 10 Products by Gross Profit
+
+![Top 10 Products by Gross Profit](top_products_profit.png)
+
+### 4. Top 10 Customers by Revenue
+
+![Top 10 Customers by Revenue](top_customers_revenue.png)
+
+### 5. Revenue by Receipt Type
+
+![Revenue by Receipt Type](receipt_type_revenue.png)
