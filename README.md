@@ -81,3 +81,32 @@ Date completeness was also evaluated. Of the 512,388 cleaned records:
 The records without dates represented approximately 19.61% of total revenue. Because dates could not be reliably determined for these transactions, they were retained for non-time-based analysis but excluded from analyses that required a valid transaction date.
 
 This approach preserved useful sales information while preventing unsupported assumptions about transaction timing.
+
+
+## Exploratory Data Analysis
+
+Following the data-cleaning process, exploratory data analysis (EDA) was performed to identify patterns in sales activity, product performance, customer behavior, and transaction types.
+
+The analysis used Python and Pandas to aggregate the cleaned transactional data and calculate key performance measures, including:
+
+- Revenue
+- Cost
+- Gross profit
+- Profit margin
+- Units sold
+- Number of transactions
+- Average transaction value
+
+The analysis was conducted across several business dimensions to identify areas of strong performance and potential opportunities for management attention.
+
+### Analysis Areas
+
+**Time-Based Performance:** Monthly revenue, cost, gross profit, units sold, transactions, and profit margin were analyzed to identify changes in sales performance throughout 2015.
+
+**Product Performance:** Products were evaluated based on revenue, gross profit, units sold, transaction volume, and profit margin to identify the products contributing most significantly to overall performance.
+
+**Customer Performance:** Customer-level metrics were calculated to identify high-value customers based on revenue, gross profit, transaction activity, and average transaction value.
+
+**Receipt-Type Performance:** Sales were grouped by receipt prefix to compare revenue, profitability, transaction volume, and average transaction value across different transaction types.
+
+These analyses provide the foundation for the visualizations and business findings presented in the following sections.
